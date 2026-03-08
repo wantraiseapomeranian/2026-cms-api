@@ -10,6 +10,16 @@
 - **Database**: H2 (In-Memory)
 - **IDE**: STS 4 (Lombok 플러그인 필요)
 
+- ### 🏃 실행 단계
+1. 프로젝트 루트 폴더에서 터미널을 열고 아래 명령어를 입력하여 서버를 실행합니다.
+   - **Windows (CMD/PowerShell)**: `gradlew bootRun`
+   - **Mac/Linux**: `./gradlew bootRun`
+2. **Swagger API 문서 접속**: 브라우저에서 아래 주소로 접속하여 API 명세를 확인하고 직접 테스트할 수 있습니다.
+   - `http://localhost:8080/swagger-ui/index.html`
+3. **API 인증 정보**: Swagger 상단의 `Authorize` 버튼을 통해 아래 계정으로 로그인할 수 있습니다.
+   - **관리자(ADMIN)**: ID: `admin` / PW: `1234`
+   - **사용자(USER)**: ID: `user` / PW: `1234`
+
 ## 2. 구현 내용 및 추가 구현 기능
 
 ### 📑 핵심 구현 내용
@@ -44,3 +54,4 @@
 
 ## 5. 사용한 AI 도구 및 참고 자료
 - **Gemini**: gradle 설정 및 코드 검증과 최종 README 구조화에 활용했습니다.
+
